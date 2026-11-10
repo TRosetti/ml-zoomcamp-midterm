@@ -1,0 +1,25 @@
+[project]
+name = "ml-zoomcamp-midterm"
+version = "0.1.0"
+description = "Predicting online shopper purchase intention (ML Zoomcamp 2026 midterm project)"
+readme = "README.md"
+authors = [
+    { name = "Thiago Rosetti Miranda", email = "105075815+TRosetti@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "uvicorn>=0.54.0",
+    "xgboost>=3.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "requests>=2.34.2",
+]
