@@ -65,3 +65,9 @@ uv run jupyter notebook notebook.ipynb
 ## Deployment
 
 <!-- TODO: cloud deployment steps + URL or screenshot/video -->
+
+## AI usage
+
+I used Claude (Anthropic) as a coding assistant for the project setup and boilerplate:
+the environment, the project structure and the README skeleton.
+The data analysis, feature engineering, model selection and tuning are my own work.
