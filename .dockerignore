@@ -1,0 +1,7 @@
+# Send to Docker only what the Dockerfile uses (no .venv, data, notebooks, ...)
+*
+!pyproject.toml
+!uv.lock
+!.python-version
+!predict.py
+!model.bin
